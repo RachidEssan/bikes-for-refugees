@@ -248,3 +248,26 @@ p {
     padding-right: 2rem;
   }
 }
+
+@media screen and (max-width: 330px) {
+  .content {
+    flex-direction: row;
+  }
+
+  title {
+    font-size: smaller;
+  }
+
+  .main {
+    padding-right: 2rem;
+  }
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #c05326;
+}
+
+btn. {
+  background-color: blue;
+}
